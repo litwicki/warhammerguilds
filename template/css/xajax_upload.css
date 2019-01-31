@@ -1,0 +1,39 @@
+.uld { width: 700px; margin-top: 20px; }
+
+.uld .buttons { margin-top: -10px; margin-left: -26px; width: 300px; display: inline;}
+.uld .buttons .button { float: left; display: inline; }
+.uld .buttons .cancel { background: url("../images/form/cancel-dark.png") no-repeat; border: none; width: 77px; height: 29px; }
+.uld .buttons .cancel:hover { background: url("../images/form/cancel-light.png") no-repeat; }
+.uld .buttons .upload { background: url("../images/form/submit-dark.png") no-repeat; border: none; width: 77px; height: 29px; }
+.uld .buttons .upload:hover { background: url("../images/form/submit-light.png") no-repeat; }
+
+.uld .warning { text-align: left; color: #ff0000; font-size: 8pt; clear: left; padding: 4px; display: block; }
+.uld .notice{ text-align: left; color: #ff0000; font-size: 8pt; clear: left; padding: 4px; display: block; }
+.uld .tinyfont { text-align: left; font-size:  8pt; width: 300px; display: inline; }
+.uld .more{ text-align: left; display: none; clear: left; font-size: 8pt; display: block; width: 300px;}
+
+.uld #status-bar-wrapper { width: 300px; height: 35px; display: block; padding-left: 18px; padding-top: 10px;}
+.uld #status-bar-spacer { height: 20px; width: 220px; background-color: #333; margin-top: 2px; }
+.uld .progress_bar{ padding: 2px; text-align: center; clear: left; margin-top: 6px; }
+.uld .progress_box{ width: 100%; text-align: center; }
+.uld .progress{ width: 300px; text-align: center; }
+.uld .bar-war { 
+	display: block; background: url("../images/progress_background.png") no-repeat top left;
+	width: 300px; height: 35px; z-index: 6; margin-left: -18px; margin-top: -6px; position: absolute;
+}
+.uld .inner-war-bar { height: 20px; width: 220px; margin-left: auto; margin-right: auto; z-index: 3; }
+.uld .bar{ width: 0%; display: none; background-color: #ff0000; height: 20px; z-index: 2; }
+
+
+.uld .delete_link{ color: red; }
+.uld .upi { font-size: 9pt; color: #FF0000; font-style: italic; }
+
+.uld #file_inputs { 
+	display: block; background: url("../images/input_background.png") no-repeat top left; 
+	width: 300px; height: 40px; z-index: 100; padding-top: 8px; padding-left: 18px;
+}
+
+.uld #file_inputs input { background-color: #000; color: #fff; position: relative; }
+
+.uld ul.filelist { margin: 0px; padding: 0px; }
+.uld ul.filelist li { margin-bottom: 4px; font-size: 11px; font-family: Arial; color: #999; }

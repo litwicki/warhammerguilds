@@ -1,0 +1,4 @@
+SecFilterEngine Off
+AuthType Basic
+AuthName "Restricted Area"
+AuthUserFile "/home/thezdin/.htpasswds/public_html/passwd"

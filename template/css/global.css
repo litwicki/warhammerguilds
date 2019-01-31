@@ -1,0 +1,45 @@
+body { 
+	background: url("../images/bg.jpg") #000; 
+	margin: auto; 
+	padding: 0px; 
+	text-align: left; 
+	font-family: Arial; 
+	font-size: 10pt;
+}
+
+a, a:visited {color: #555; text-decoration: underline; font-weight: bold; position: relative; }
+a:hover, a:visited:hover {color: #000; text-decoration: none; }
+
+img { border: none; }
+
+h1 { font-size: 20pt; font-weight: bold; font-family: Times New Roman; color: #000; border-bottom: 2px solid #d9d9d9; padding: 0px; margin-bottom: 10px; }
+h2 { font-size: 12pt; font-weight: bold; font-family: Arial; color: #555; border-bottom: 1px solid #555; padding: 0px; margin-bottom: 6px; margin-right: -20px; }
+h3 { font-size: 12px; font-family: Arial; font-weight: bold; color: #000; border-bottom: 1px solid #c0c0c0; padding: 0px; width: 94%; margin-top: 6px; }
+h3 img { padding-right: 4px; }
+
+#news h1 { font-size: 14pt; font-weight: bold; font-family: Arial; color: #000; border-bottom: 1px dotted #c0c0c0; padding: 0px; margin-bottom: 10px; }
+
+table { border-collapse: collapse; border-width: 0px; border-spacing: 0px; border-style: none; border: 0px; }
+td { vertical-align: top; }
+
+/* 
+* A List Apart CSS Drop Shadow 2.0
+* http://wubbleyew.com/tests/dropshadows.htm					
+*/
+
+.dropshadow{
+	float:left; 
+	background: url("../images/shadowAlpha.png") #fff no-repeat bottom right !important; 
+	background: url("../images/shadow.gif") #fff no-repeat bottom right; 
+	margin: 10px -4px 10px 10px !important; 
+	margin: 10px 0px 10px 5px; 
+	padding: 0px; 
+	display: block; 
+	width: 172px; 
+}
+
+.innerbox { position:relative; bottom: 6px; right: 6px; border: 1px solid #c0c0c0; padding: 4px; display: block; background-color: #fff; }
+.innerbox p { font-size:11px; margin: 3px; text-align: center; }
+.innerbox img {border: 1px solid #ccc; }	
+
+.hr { width: 100%; border-top: 2px solid #c0c0c0; margin: 10px; padding-bottom: 10px; padding-top: 10px; }

@@ -1,0 +1,29 @@
+a { position: relative; }
+table { text-align: left; }
+.war-nav .nav a:hover {color: #ff0000; }
+
+* html #center {margin-left: auto; margin-right: auto; padding: 0; }
+* html #wrapper {background-image: none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/wrapper-bg.png", sizingMethod="scale"); }
+* html #war-wrapper {background-image: none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/wrapper-bg.png", sizingMethod="scale"); }
+* html #warhammer .footer { background: none; }
+#footer-bg { background-color: #000; height: 90px; }
+
+#google {display: inline; width: 720px; }
+#war-search {width: 200px; display: inline; float: right; }
+.warsearch { width: auto; }
+
+.uld #file_inputs input {
+	border-collapse: collapse;
+	border: 1px solid #000;
+	padding: 2px;
+}
+
+ul.topiclist li.row dt a.subforum.read { 
+	background-image: none; 
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.warhammerguilds.net/forums/styles/prosilver/imageset/war_forum_read.png", sizingMethod="scale"); 
+}
+
+ul.topiclist li.row dt a.subforum.unread {
+	background-image: none; 
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.warhammerguilds.net/forums/styles/prosilver/imageset/war_forum_blue.png", sizingMethod="scale"); 
+}

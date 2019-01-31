@@ -1,0 +1,32 @@
+#center { width: 100%; margin-left: auto; margin-right: auto; }
+
+#wrapper { width: 1000px; background: url("../images/wrapper-bg.png") repeat-y; padding: 0px; margin-left: auto; margin-right: auto; }
+#warhammer { width: 980px; height: 900px; padding: 0px; margin-left: auto; margin-right: auto; border: none; background-color: #fff; }
+
+.header { height: 175px; vertical-align: middle; background: url("../images/warguilds_header.jpg") #000 no-repeat; }
+
+.nav { background: url("../images/nav-bg.jpg") #000 repeat-x top; text-align: center; vertical-align: middle; height: 50px; width: 140px; }
+.nav:hover { background: url("../images/nav-bg-over.jpg") repeat-x top; }
+.nav a, .nav a:visited { font-family: Arial; font-size: 14px; font-weight: bold; color: #fff; text-decoration: none; }
+.nav a:hover, .nav a:visited:hover { color: #fff; }
+
+.content { position: relative; height: 100%; padding: 12px; vertical-align: top; }
+
+.left_column { vertical-align: top; color: #444; border-right: 1px solid #c0c0c0; margin: auto; padding-right: 10px; }
+.right_column { width: 780px; height: 100%; color: #000; vertical-align: top; padding-left: 20px; padding-right: 20px; }
+	
+	.gallery { width: 100%; }
+
+#warhammer .footer { padding: 20px; vertical-align: bottom; }
+#warhammer .footer a, #warhammer .footer a:visited { color: #000; }
+#warhammer .footer a:hover, #warhammer .footer a:visited:hover { color: #000; text-decoration: underline; }
+
+/*
+*Style the fighters at the bottom left/right of the page
+*/
+	.fighter-right { width: 269px; height: 250px; position: relative; float: right; margin-top: -250px; }
+	.fighter-left { width: 250px; height: 259px; position: relative; float: left; margin-top: -250px; }
+
+#footer-bg {width: 100%; height: 100px; background: url("../images/footer-bg.png") repeat-x top; padding: 0px; margin-top: -10px; z-index: 100; position: absolute; }
+
+#video_player { background: url("../images/video_outline.png") top left no-repeat; padding-top: 20px; padding-left: 20px; width: 520px; height: 400px; }
