@@ -27,15 +27,15 @@ define("WAR_VERSION","Beta 2.0");
 ##															##
 ##############################################################
 
-$ADMIN_PASSWORD				="s4cr1f1c3";
+$ADMIN_PASSWORD				="warguilds";
 
 define("SITE_NAME",			"WARGUILDS");
 define("PAGE_TITLE",		"Building WAR Communities");
 define("SITE_DESCRIPTION",	"A website dedicated to providing community driven guild news, and resources");
 define("SITE_KEYWORDS",		"Warhammer, WAR, Age of Reckoning, RvR, PvP, PvE, EA, EA Mythic, Mythic Entertainment, Warhammer Online, Warhammer Online Guild, Guilds, Guild");
 
-define("SERVER_PATH",		"/home/thezdin/public_html/");
-define("VIDEO_PATH",		"/home/thezdin/public_html/files/videos/");
+define("SERVER_PATH",		"/var/www/docker-lamp-php-5/");
+define("VIDEO_PATH",		"/var/www/docker-lamp-php-5/files/videos/");
 
 define("HOME_PATH",			"http://www.warhammerguilds.net/");
 define("FORUM_PATH",		"forums/");
@@ -64,12 +64,12 @@ DEFINE("FLVTOOL_PATH",		"/usr/bin/flvtool2/");
 ##															##
 ##############################################################
 
-define("WAR_DB",			"thezdin_warguilds");
-define("DB_USERNAME",		"thezdin_thezdin");					
-define("DB_PASSWORD",		"th3zd1n");				
+define("WAR_DB",			"warguilds");
+define("DB_USERNAME",		"warguilds");
+define("DB_PASSWORD",		"warguilds");
 define("DB_HOST",			"localhost");
 
-define("PHPBB_ROOT_PATH",	'/home/thezdin/public_html/forums/'); // Such as.. /home/user/public_html/phpbb3
+define("PHPBB_ROOT_PATH",	'/var/www/docker-lamp-php-5/forums/'); // Such as.. /home/user/public_html/phpbb3
 define("POST_LIMIT",		10); // Total number of posts to display on news.php
 define("POST_LENGTH",		200);
 

@@ -3,7 +3,7 @@
 // using xajax version 0.1 beta4
 // http://xajax.sourceforge.net
 
-require ('../xajax.inc.php');
+require('../xajax.inc.php');
 
 function helloWorld($isCaps)
 {

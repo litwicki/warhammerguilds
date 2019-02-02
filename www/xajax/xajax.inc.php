@@ -50,7 +50,7 @@ if (!defined ('XAJAX_DEFAULT_CHAR_ENCODING'))
 	define ('XAJAX_DEFAULT_CHAR_ENCODING', 'utf-8' );
 }
 
-require_once(dirname(__FILE__)."/xajaxResponse.inc.php");
+require_once(dirname(__FILE__) . "/xajaxResponse.inc.php");
 
 /**
  * Communication Method Defines
@@ -933,7 +933,7 @@ class xajax
 			if (!file_exists($srcFile)) {
 				trigger_error("The xajax uncompressed Javascript file could not be found in the <b>" . dirname($realJsFile) . "</b> folder. Error ", E_USER_ERROR);	
 			}
-			require(dirname(__FILE__)."/xajaxCompress.php");
+			require(dirname(__FILE__) . "/xajaxCompress.php");
 			$javaScript = implode('', file($srcFile));
 			$compressedScript = xajaxCompressJavascript($javaScript);
 			$fH = @fopen($realJsFile, "w");

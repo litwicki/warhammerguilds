@@ -4,7 +4,7 @@
 // using xajax version 0.2
 // http://xajaxproject.org
 
-require_once ("signup.common.php");
+require_once("signup.common.php");
 
 function processForm($aFormValues)
 {
